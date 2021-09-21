@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<title>Hospedagem | Gulliver Traveller</title>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="logo">
+					<a href="/">
+						<span>Gulliver<br />Traveller</span></a
+					>
+				</div>
+				<div class="header-content">
+					<h1>Encontre o hotel certo para sua estadia</h1>
+					<p>
+						Busque um lugar e te mostraremos uma lista com os melhores hotéis
+					</p>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<div class="form-wrapper">
+				<form>
+					<div class="input-data">
+						<label for="entrada">Entrada</label>
+						<input type="date" name="entrada" id="entrada" required />
+					</div>
+
+					<div class="input-data">
+						<label for="saida">Saída</label>
+						<input type="date" name="saida" id="saida" required />
+					</div>
+
+					<p>Objetivo da viagem</p>
+
+					<div class="input-objetivo">
+						<input type="radio" id="trabalho" name="opcoes" value="trabalho" />
+						<label for="trabalho">Trabalho</label>
+					</div>
+
+					<div class="input-objetivo">
+						<input type="radio" id="negocios" name="opcoes" value="negocios" />
+						<label for="negocios">Negócios</label>
+					</div>
+
+					<div class="input-objetivo">
+						<input type="radio" id="turismo" name="opcoes" value="turismo" />
+						<label for="turismo">Turismo</label>
+					</div>
+
+					<button type="submit" id="hotels-find">Buscar hotéis em</button>
+				</form>
+			</div>
+			<div class="container hotels">
+				<h2 id="hotels-heading">Hotéis encontrados em</h2>
+				<div id="hotels-list">
+					<div class="hotel-item">
+						<a href="/">
+							<img
+								src="./assets/img/1.jpg"
+								alt="Hotel IBIS Styles São Paulo Anhembi"
+							/>
+							<h3>IBIS Styles São Paulo Anhembi</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam, quis nostrud exercitation ullamco laboris
+								nisi ut aliquip ex ea commodo consequat.
+							</p>
+						</a>
+					</div>
+					<div class="hotel-item">
+						<a href="/">
+							<img src="./assets/img/2.jpg" alt="Hotel Confort Ibirapuera" />
+							<h3>Confort Ibirapuera</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam, quis nostrud exercitation ullamco laboris
+								nisi ut aliquip ex ea commodo consequat.
+							</p>
+						</a>
+					</div>
+					<div class="hotel-item">
+						<a href="/">
+							<img
+								src="./assets/img/3.jpg"
+								alt="Hotel Blue Tree Premium Morumbi"
+							/>
+							<h3>Blue Tree Premium Morumbi</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam, quis nostrud exercitation ullamco laboris
+								nisi ut aliquip ex ea commodo consequat.
+							</p>
+						</a>
+					</div>
+					<div class="hotel-item">
+						<a href="/">
+							<img
+								src="./assets/img/4.jpg"
+								alt="Hotel Mercure São Paulo Pamplona"
+							/>
+							<h3>Mercure São Paulo Pamplona</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam, quis nostrud exercitation ullamco laboris
+								nisi ut aliquip ex ea commodo consequat.
+							</p>
+						</a>
+					</div>
+					<div class="hotel-item">
+						<a href="/">
+							<img
+								src="./assets/img/5.jpg"
+								alt="Hotel Sheraton São Paulo WTC Hotel"
+							/>
+							<h3>Sheraton São Paulo WTC Hotel</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam, quis nostrud exercitation ullamco laboris
+								nisi ut aliquip ex ea commodo consequat.
+							</p>
+						</a>
+					</div>
+					<div class="hotel-item">
+						<a href="/">
+							<img
+								src="./assets/img/6.jpg"
+								alt="Hotel Bourbon Convention Ibirapuera"
+							/>
+							<h3>Bourbon Convention Ibirapuera</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam, quis nostrud exercitation ullamco laboris
+								nisi ut aliquip ex ea commodo consequat.
+							</p>
+						</a>
+					</div>
+					<div class="hotel-item">
+						<a href="/">
+							<img
+								src="./assets/img/7.jpg"
+								alt="Hotel Blue Tree Preimum Paulista"
+							/>
+							<h3>Blue Tree Preimum Paulista</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam, quis nostrud exercitation ullamco laboris
+								nisi ut aliquip ex ea commodo consequat.
+							</p>
+						</a>
+					</div>
+					<div class="hotel-item">
+						<a href="/">
+							<img
+								src="./assets/img/8.jpg"
+								alt="Hotel Golden Tulip Paulista Plaza"
+							/>
+							<h3>Golden Tulip Paulista Plaza</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam, quis nostrud exercitation ullamco laboris
+								nisi ut aliquip ex ea commodo consequat.
+							</p>
+						</a>
+					</div>
+					<div class="hotel-item">
+						<a href="/">
+							<img
+								src="./assets/img/9.jpg"
+								alt="Hotel Renaissance São Paulo Hotel"
+							/>
+							<h3>Renaissance São Paulo Hotel</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam, quis nostrud exercitation ullamco laboris
+								nisi ut aliquip ex ea commodo consequat.
+							</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer>
+			<div class="container">
+				<span>Feito por Rodrigo Fernandes</span>
+			</div>
+		</footer>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="./assets/js/script.js"></script>
+	</body>
+</html>
